@@ -117,14 +117,3 @@ This project is a personal creative experiment inspired by the feeling and forma
 
 ---
 
-## Final Thought
-
-**Suprabhatam.exe** isn't really about a song.
-
-It's about that moment when a familiar sound travels through the neighbourhood and somehow tells everyone:
-
-**“It's morning.”**
-
----
-
-### Made with nostalgia, code & a little too much AI. 🪷
