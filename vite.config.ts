@@ -1,49 +1,6 @@
-name: Deploy Lovable App to Pages
-
-on:
-  push:
-    branches: ["main"]
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
-jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build project
-        run: npm run build
-
-      - name: Setup Pages
+- name: Setup Pages
         uses: actions/configure-pages@v4
-
-      - name: Upload artifact
-        # Lovable/TanStack builds static client assets to .output/public or dist/client
-        uses: actions/upload-pages-artifact@v3
         with:
-          path: './.output/public'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          enablement: true
+          # Disables auto-injecting base paths from vite configs
+          static_site_generator: ""
