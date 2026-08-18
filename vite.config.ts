@@ -1,6 +1,12 @@
-- name: Setup Pages
-        uses: actions/configure-pages@v4
-        with:
-          enablement: true
-          # Disables auto-injecting base paths from vite configs
-          static_site_generator: ""
+import { defineConfig } from "@lovable.dev/vite-tanstack-config";
+
+export default defineConfig({
+  tanstackStart: {
+    // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
+    // nitro/vite builds from this
+    server: { entry: "server" },
+  },
+  vite: {
+    base: "/Good-Morning-India/",
+  },
+});
