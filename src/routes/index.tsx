@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
-import courtyard from "@/assets/courtyard.png.asset.json";
+import courtyard from "@/assets/courtyard.png";
 
 const SPOTIFY_TRACK = "1C2MHvFmeoFpExBtWOiQ4Z";
 const SPOTIFY_URL = `https://open.spotify.com/track/${SPOTIFY_TRACK}`;
@@ -8,13 +8,13 @@ const SPOTIFY_URL = `https://open.spotify.com/track/${SPOTIFY_TRACK}`;
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Toli Velugu — First Light of the Courtyard" },
+      { title: "Good morning India" },
       {
         name: "description",
         content:
           "A living South Indian courtyard that changes with the hour. Touch the Tulsi to let Suprabhatam fill the morning.",
       },
-      { property: "og:title", content: "Toli Velugu — First Light of the Courtyard" },
+      { property: "og:title", content: "Good morning India" },
       {
         property: "og:description",
         content:
@@ -69,7 +69,7 @@ function Index() {
 
   return (
     <main className={`courtyard phase-${phase}`}>
-      <img src={courtyard.url} alt="" aria-hidden="true" className="courtyard-bg" />
+      <img src={courtyard} alt="" aria-hidden="true" className="courtyard-bg" />
       <div className="courtyard-tint" aria-hidden="true" />
       <div className="courtyard-breeze" aria-hidden="true" />
 
