@@ -96,7 +96,7 @@ function Index() {
       </div>
 
       <header className="courtyard-head">
-        <h1 className="courtyard-title">Toli Velugu</h1>
+        <h1 className="courtyard-title">Good morning India</h1>
         <p className="courtyard-sub">{GREETING[phase]}</p>
         <p className="courtyard-clock">{clock}</p>
       </header>
