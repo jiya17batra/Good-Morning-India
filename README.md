@@ -1,29 +1,130 @@
-# Welcome to your Lovable project
+# Good morning, India
 
-This project was built with [Lovable](https://lovable.dev).
+**Live App:** https://good-morning-india-psi.vercel.app/
 
-## Build with Lovable
+> *The original morning notification.*
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+---
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## 🌿 About
 
-## Development
+**Good morning, India** is a nostalgic interactive experience inspired by the mornings I grew up hearing in South India.
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+**“Sri Venkateswara Suprabhatham” by M. S. Subbulakshmi** is a sound that feels deeply familiar to me — from neighborhood homes playing it in the morning to temples where it became part of the atmosphere.
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+Instead of simply listening to the song, I wanted to recreate the **feeling around it**.
 
-## Built with
+So I built a traditional South Indian courtyard with a Tulsi plant, rangoli, mango-leaf toran, birds, sunlight, clouds and changing skies — turning a familiar morning sound into an interactive digital memory.
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+The goal was simple:
+
+> **Make a website that feels like opening a memory.**
+
+---
+
+## The Inspiration
+
+This project was inspired by a few beautiful nostalgia-driven web experiments that turn everyday experiences into interactive digital spaces:
+
+* **Morning Radio** — a nostalgic Hindi radio experience
+* **Bus Driver Playlist** — music and memories from Indian bus journeys
+* **Horn OK Please** — the visual culture and nostalgia of Indian roads
+* **Deluxe Saloon** — an interactive take on the familiar Indian barber-shop experience
+
+These projects inspired me to ask:
+
+**“What is the South Indian experience that instantly takes me back?”**
+
+For me, it was **Suprabhatham playing in the background of a morning courtyard.**
+
+So I built my own version of that feeling.
+
+---
+
+## 🎵 The Sound
+
+The experience is centered around **M. S. Subbulakshmi's rendition of Sri Venkateswara Suprabhatham**.
+
+Clicking the Tulsi plant is the main interaction that connects the courtyard to the song.
+
+The idea is:
+
+**Tulsi → Suprabhatham → Morning → Memory**
+
+
+---
+
+## 🛠️ Tech Stack
+
+### Design
+
+* **Figma** — wireframes, visual exploration and courtyard mockups
+
+### Development
+
+* **HTML**
+* **CSS**
+* **JavaScript / TypeScript**
+* **SVG & CSS animations**
+* **GSAP** — interactive environmental animations
+
+### AI-assisted development
+
+* **Claude** — development assistance, interaction logic and refinement
+* **Lovable** — rapid prototyping and building the interactive experience
+* **ChatGPT** — README documentation and project ideation
+
+---
+
+## 🎨 Design Process
+
+The visual direction started in **Figma**, where I explored the courtyard composition, layout and overall mood before turning it into an interactive experience.
+
+The final environment was designed around small details that make a South Indian courtyard feel familiar:
+
+**Tulsi + Rangoli + Mango Leaves + Sunlight + Birds + Courtyard + Suprabhatham**
+
+Rather than designing a traditional website around the experience, I wanted the **environment itself to become the interface**.
+
+---
+
+## 💭 Why I Built This
+
+Some memories don't need photographs.
+
+Sometimes a **sound** is enough.
+
+For me, hearing Suprabhatham in the morning immediately brings back the feeling of waking up in South India — the sunlight, the courtyard, the temple atmosphere and the sounds coming from nearby homes.
+
+This project is my attempt to preserve that feeling digitally.
+
+> **Some mornings sound like home.**
+
+---
+
+## redits & Inspiration
+
+Inspired by the nostalgia-driven web experiments created by:
+
+* **Morning Radio**
+* **Bus Driver Playlist**
+* **Horn OK Please**
+* **Deluxe Saloon**
+
+Special musical credit to **M. S. Subbulakshmi — Sri Venkateswara Suprabhatham**.
+
+This project is a personal creative experiment inspired by the feeling and format of these works.
+
+---
+
+## Final Thought
+
+**Suprabhatam.exe** isn't really about a song.
+
+It's about that moment when a familiar sound travels through the neighbourhood and somehow tells everyone:
+
+**“It's morning.”**
+
+---
+
+### Made with nostalgia, code & a little too much AI. 🪷
